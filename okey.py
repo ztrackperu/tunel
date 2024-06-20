@@ -14,7 +14,17 @@ collection = db.tunel
 query = collection.find({"status":1}).sort("fecha",-1).limit(2)
 
 for x in query:
-    print(x)
+    #print(x)
+    db1 = client.ZGTU0015_6_2024
+    collection1 = db1.madurador
+    query1 = collection1.find_one()
+    if query1 :
+        id =query1["id"] +1
+    else:
+        id =100000000
+    print(id)
+    print(x['fecha'])
+    
 #print(query)
 
 print("jale ok!")
@@ -23,15 +33,11 @@ print("jale ok!")
 #solicitar id
 
 
-db1 = client.ZGTU0015_6_2024
-
-collection1 = db1.madurador
-
-query1 = collection1.find_one()
-
-if query1 :
-    id =query1["id"] +1
-else:
-    id =100000000
-
-print(id)
+#db1 = client.ZGTU0015_6_2024
+#collection1 = db1.madurador
+#query1 = collection1.find_one()
+#if query1 :
+    #id =query1["id"] +1
+#else:
+    #id =100000000
+#print(id)
