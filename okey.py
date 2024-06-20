@@ -22,8 +22,16 @@ print("jale ok!")
 #establecer proceso de datos 
 #solicitar id
 
+
 db1 = client.ZGTU0015_6_2024
 
 collection1 = db1.madurador
 
 query1 = collection1.find_one()
+
+if query1 :
+    id =query1["id"] +1
+else:
+    id =100000000
+
+print(id)
