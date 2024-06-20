@@ -23,7 +23,8 @@ for x in query:
     print(query1)
     print("descanso")
     if query1:
-        for y in query1:
+        query2 = collection1.find().sort("id",-1).limit(1)
+        for y in query2:
             print(y)
             id =y["id"] +1
     else:
