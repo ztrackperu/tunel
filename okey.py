@@ -19,11 +19,12 @@ for x in query:
     db1 = client.ZGTU0015_6_2024
     collection1 = db1.madurador
     query1 = collection1.find().sort("id",-1).limit(1)
-    for y in query1:
-        if query1 :
+    if query1 :
+        for y in query1:
             id =y["id"] +1
-        else:
-            id =100000000
+    else:
+        id =100000000
+
     print(id)
     print(x['fecha'])
     datito = x['data']
