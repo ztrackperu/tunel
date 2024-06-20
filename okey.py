@@ -29,7 +29,7 @@ for x in query:
     print(datito)
     print(paquete[42])
     #contruir objeto 
-    objeto = {
+    objeto1 = {
         "id": id,
         "set_point": paquete[3], 
         "temp_supply_1": paquete[4],
@@ -109,6 +109,7 @@ for x in query:
         "extra_4": 0,
         "extra_5": 0
     }
+    print(objeto1)
 #print(query)
 
 print("jale ok!")
