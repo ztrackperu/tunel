@@ -11,8 +11,11 @@
 import pymongo
 
 myclient = pymongo.MongoClient( "mongodb://localhost:27170/")
-mydb = myclient[ "ZGTU0015_6_2024"]
-mycol = mydb[ "madurador"]
+#mydb = myclient[ "ZGTU0015_6_2024"]
+#mycol = mydb[ "madurador"]
+
+mydb = myclient[ "REPOSITORIO_6_2024"]
+mycol = mydb[ "tunel"]
 
 x = mycol.find_one()
 
