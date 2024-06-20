@@ -24,8 +24,10 @@ for x in query:
         id =100000000
     print(id)
     print(x['fecha'])
-    datito = x['data'] 
+    datito = x['data']
+    paquete = datito.split(',') 
     print(datito)
+    print(paquete[42])
 #print(query)
 
 print("jale ok!")
