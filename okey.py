@@ -112,7 +112,7 @@ for x in query:
     }
     print(objeto1)
     #guardar en base de datos 
-    query1.insert_one(objeto1)
+    collection1.insert_one(objeto1)
 #print(query)
 
 print("jale ok!")
