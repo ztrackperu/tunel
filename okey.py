@@ -17,7 +17,7 @@ for x in query:
 #print(query)
 
 print("jale ok!")
-print(query['fecha'])
+#print(query['fecha'])
 #establecer proceso de datos 
 #solicitar id
 
