@@ -1,0 +1,82 @@
+{
+    "id": 15088835, /* proceso de 100 mill0ones  */
+    "set_point": 19.4, /* existe  fTempSP */ 
+    "temp_supply_1": 25.7, /* existe  fSupply1 */ 
+    "temp_supply_2": -3277, /* existe  fSupply2 */ 
+    "return_air": 25.7, /* existe  fReturn */ 
+    "evaporation_coil": 25.7, /* existe  fEvaporator */
+    "condensation_coil": -3277.2, /* existe  fCondenser */
+    "compress_coil_1": -3277.2, /* existe  fCompresor */
+    "compress_coil_2": -3276.9, /* existe  fCompresor2 */
+    "ambient_air": 0, /* existe  fAmbient */
+    "cargo_1_temp": 0, /* existe  fUsda1 */
+    "cargo_2_temp": 0, /* existe  fUsda2 */
+    "cargo_3_temp": 0, /* existe  fUsda3 */
+    "cargo_4_temp": 0, /* existe  fCargo */
+    "relative_humidity": 32766, /* existe  iHumidity */
+    "avl": 32767, /* existe  iAvl */
+    "suction_pressure": 3276.6, /* existe  fSuction */
+    "discharge_pressure": 3276.6, /* existe  fDischarge */
+    "line_voltage": 32766, /* existe  iVoltage */
+    "line_frequency": 32760, /* existe  iFrecuencia */
+    "consumption_ph_1": 35, /* existe  fCurrentph1 */
+    "consumption_ph_2": 35, /* existe  fCurrentph2 */
+    "consumption_ph_3": 35, /* existe  fCurrentph3 */
+    "co2_reading": 51,  /* existe  fCo2 */
+    "o2_reading": 3276.6,  /* existe  fO2 */
+    "evaporator_speed": 0, /* existe  iEvapFanSpeed */
+    "condenser_speed": 0, /* existe  iCondenserFanSpeed */
+    "battery_voltage": 0, /* existe  fBatteryData */
+    "power_kwh": 20187.8, /* existe  fPowerMeterReading */
+    "power_trip_reading": 0.7, /* existe  iPowerMeterTrip */
+    "power_trip_duration": 0,
+    "suction_temp": 3276.6,
+    "discharge_temp": 3276.6,
+    "supply_air_temp": 25.7,
+    "return_air_temp": 25.7,
+    "dl_battery_temp": 25.2,
+    "dl_battery_charge": 0,
+    "power_consumption": 0.01,
+    "power_consumption_avg": 0,
+    "alarm_present": 1,  /* existe  iPowerstate */
+    "capacity_load": 156,
+    "power_state": 1,
+    "controlling_mode": "1",
+    "humidity_control": 0,
+    "humidity_set_point": 254,
+    "fresh_air_ex_mode": 0,
+    "fresh_air_ex_rate": 32766,
+    "fresh_air_ex_delay": 3276.6,
+    "set_point_o2": 3276.6,
+    "set_point_co2": 3276.6,
+    "defrost_term_temp": 18,
+    "defrost_interval": 6,
+    "water_cooled_conde": 0,
+    "usda_trip": 0,
+    "evaporator_exp_valve": 255,
+    "suction_mod_valve": 255,
+    "hot_gas_valve": 255,
+    "economizer_valve": 255,
+    "ethylene": 0,
+    "stateProcess": "6",
+    "stateInyection": "0",
+    "timerOfProcess": 30,
+    "modelo": "THERMOKING",
+    "latitud": -11.9803,
+    "longitud": -77.1226,
+    "created_at": {
+      "$date": "2024-04-08T15:47:36.000Z"
+    },
+    "telemetria_id": 4502,
+    "inyeccion_etileno": 1,
+    "defrost_prueba": 2,
+    "ripener_prueba": 2,
+    "sp_ethyleno": 37,
+    "inyeccion_hora": 30,
+    "inyeccion_pwm": 0,
+    "extra_1": 0,
+    "extra_2": 0,
+    "extra_3": 0,
+    "extra_4": 0,
+    "extra_5": 0
+  }
