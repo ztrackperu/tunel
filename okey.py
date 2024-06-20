@@ -18,8 +18,8 @@ for x in query:
     #print(x)
     db1 = client.ZGTU0015_6_2024
     collection1 = db1.madurador
-    query1 = collection1.find_one()
-    if query1 :
+    query1 = collection1.find().sort("id",-1).limit(1)
+    if query1[0] :
         id =query1["id"] +1
     else:
         id =100000000
