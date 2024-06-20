@@ -10,7 +10,8 @@ db = client.REPOSITORIO_6_2024
 
 collection = db.tunel
 
-query = collection.find_one({},{"_id":-1})
+query = collection.find_one()
+
 print(query)
 
 print("jale ok!")
