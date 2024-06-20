@@ -10,7 +10,8 @@ db = client.REPOSITORIO_6_2024
 
 collection = db.tunel
 
-query = collection.find().sort("fecha",-1).limit(2)
+#-1 para ver de mayor a menor (veo el ultimo dato ingresado a la base de datos)
+query = collection.find({"status":1}).sort("fecha",-1).limit(2)
 
 for x in query:
     print(x)
