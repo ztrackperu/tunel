@@ -11,7 +11,8 @@ db = client.REPOSITORIO_6_2024
 collection = db.tunel
 
 #-1 para ver de mayor a menor (veo el ultimo dato ingresado a la base de datos)
-query = collection.find({"status":1}).sort("fecha",-1).limit(2)
+#query = collection.find({"status":1}).sort("fecha",-1).limit(2)
+query = collection.find({"status":1}).sort("fecha",-1)
 
 for x in query:
     #print(x)
@@ -110,6 +111,8 @@ for x in query:
         "extra_5": 0
     }
     print(objeto1)
+    #guardar en base de datos 
+    query1.insert_one(objeto1)
 #print(query)
 
 print("jale ok!")
