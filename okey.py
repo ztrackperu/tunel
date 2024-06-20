@@ -19,8 +19,7 @@ for x in query:
     db1 = client.ZGTU0015_6_2024
     collection1 = db1.madurador
     #query1 = collection1.find().sort("id",-1).limit(1)
-    query1 = collection1.find_one().sort("id",-1).limit(1)
-
+    query1 = collection1.find_one()
     print(query1)
     print("descanso")
     if query1[0] :
