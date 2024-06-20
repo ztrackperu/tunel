@@ -17,6 +17,5 @@ myclient = pymongo.MongoClient( "mongodb://localhost:27170/")
 mydb = myclient[ "REPOSITORIO_6_2024"]
 mycol = mydb[ "tunel"]
 
-x = mycol.find_one()
-
+x = mycol.find_one
 print(x)
