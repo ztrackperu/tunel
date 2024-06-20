@@ -10,7 +10,7 @@ db = client.REPOSITORIO_6_2024
 
 collection = db.tunel
 
-query = collection.find().sort("fecha",1).limit(2)
+query = collection.find().sort("fecha",-1).limit(2)
 
 for x in query:
     print(x)
