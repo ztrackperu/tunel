@@ -1,36 +1,36 @@
-1TC2,    CABECERA
-Madurador, TIPO
-,        ZGTU0015
-0.10,    fTempSP
-11.60,   fSupply1
-401.00,  fSupply2
-9.60,    fReturn
-9.40,    fEvaporator
-31.40,   fCondenser
-40.30,   fCompresor
-400.00,  fCompresor2
-30.10,   fAmbient
-8.00,    fUsda1
-8.30,    fUsda2
-9.00,    fUsda3
-8.10,    fCargo
-401,     iHumidity
-401,     iAvl
-401.00,  fSuction
-401.00,  fDischarge
-472,     iVoltage
-60,      iFrecuencia
-5.40,    fCurrentph1
-5.50,    fCurrentph2
-5.00,    fCurrentph3
-401.00,  fCo2
-401.00,  fO2
-0,       iEvapFanSpeed
-0,       iCondenserFanSpeed
-41.60,   fBatteryData
-195.40,  fPowerMeterReading
-0,       iPowerMeterTrip
-192.70,  fSuplyShow
+1TC2,    CABECERA --0
+Madurador, TIPO   --1
+,        ZGTU0015 --2
+0.10,    fTempSP  --3
+11.60,   fSupply1   4
+401.00,  fSupply2   5
+9.60,    fReturn    6
+9.40,    fEvaporator  7
+31.40,   fCondenser  8
+40.30,   fCompresor  9
+400.00,  fCompresor2  10
+30.10,   fAmbient  11
+8.00,    fUsda1  12
+8.30,    fUsda2  13
+9.00,    fUsda3  14
+8.10,    fCargo  15
+401,     iHumidity  16
+401,     iAvl       17
+401.00,  fSuction   18
+401.00,  fDischarge 19
+472,     iVoltage   20
+60,      iFrecuencia  21
+5.40,    fCurrentph1  22
+5.50,    fCurrentph2  23
+5.00,    fCurrentph3  24
+401.00,  fCo2         25
+401.00,  fO2          26
+0,       iEvapFanSpeed  27
+0,       iCondenserFanSpeed  28
+41.60,   fBatteryData   29
+195.40,  fPowerMeterReading  30
+0,       iPowerMeterTrip   31
+192.70,  fSuplyShow  
 192.70,  fSuplyShow
 192.70,  fSuplyShow
 192.70,  fSuplyShow
@@ -40,7 +40,7 @@ Madurador, TIPO
 192,     fSuplyShow
 192.70,  fSuplyShow
 192,     fSuplyShow
-0,       iPowerstate
+0,       iPowerstate   42
 192,
 192,
 192,
