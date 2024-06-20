@@ -22,7 +22,7 @@ for x in query:
     query1 = collection1.find_one()
     print(query1)
     print("descanso")
-    if query1[0] :
+    if query1:
         for y in query1:
             print(y)
             id =y["id"] +1
