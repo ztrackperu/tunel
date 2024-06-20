@@ -8,3 +8,12 @@
 #hacer doble validacion y los datos que no existen pasar por None
 #construir el json y guaradr cen la base de datos ZGTU0015_6_2024
 
+import pymongo
+
+myclient = pymongo.MongoClient( "mongodb://localhost:27170/")
+mydb = myclient[ "ZGTU0015_6_2024"]
+mycol = mydb[ "madurador"]
+
+x = mycol.find_one()
+
+print(x)
