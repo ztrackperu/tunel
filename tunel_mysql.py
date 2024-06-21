@@ -13,12 +13,12 @@ db_cursor = db_connection.cursor()
 db_cursor.execute("SELECT * FROM  contenedores WHERE nombre_contenedor='ZGTU0015'")
 #db_cursor.execute("CREATE DATABASE my_first_db")
 
-if db_cursor :
-	print("con resultado")
-else :
-	print("no pasaa nada ")
+
 #print all databases
 for db in db_cursor:
-	print(db)
+	if db:
+	    print("con resultado")
+    else:
+	    print("no pasaa nada ")
 	
 #crear registro sino existe , 
