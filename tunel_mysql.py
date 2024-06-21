@@ -54,8 +54,10 @@ for db in db_cursor :
             "%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,0,0,0,0,0,0,0,0,0,0,0,%s,"
             "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,'THERMOKING',0,0,%s,1,0,0)"
         )
-        db_cursor.execute(consulta_tunel,(2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2, datetime.datetime(2024, 4, 16, 13, 51, 11)))
+        #db_cursor.execute(consulta_tunel,(2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2, datetime.datetime(2024, 4, 16, 13, 51, 11)))
         #db_cursor.execute(consulta_tunel,(2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2))
+        db_cursor.execute(consulta_tunel,(2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,'2024-06-21 14:29:52'))
+
 
     else :
         #actualizar el 
