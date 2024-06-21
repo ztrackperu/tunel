@@ -36,7 +36,7 @@ print(db_cursor)
 
 for db in db_cursor :
     print("aqui va :")
-    print(db)
+    print(db[0])
     print("termino de dato")
 
 print("trizteza")
