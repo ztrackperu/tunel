@@ -3,6 +3,7 @@ z ="luis el terrible"
 
 print(z)
 
+#import mysql.connector
 from pymongo import MongoClient
 client = MongoClient()
 
@@ -136,3 +137,5 @@ print("jale ok!")
 #else:
     #id =100000000
 #print(id)
+
+
