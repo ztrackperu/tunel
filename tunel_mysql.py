@@ -1,4 +1,5 @@
 import mysql.connector
+import datetime
 
 db_connection = mysql.connector.connect(
     host= "localhost",
@@ -53,7 +54,7 @@ for db in db_cursor :
             "%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,0,0,0,0,0,0,0,0,0,0,0,%s,"
             "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,'THERMOKING,0,0,%s,1,0,0)"
         )
-        db_cursor.execute(consulta_tunel,(2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,'2024-06-21 11:58:41'))
+        db_cursor.execute(consulta_tunel,(2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2, datetime.datetime(2024, 4, 16, 13, 51, 11)))
 
     else :
         #actualizar el 
