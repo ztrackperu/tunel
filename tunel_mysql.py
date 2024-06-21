@@ -52,9 +52,10 @@ for db in db_cursor :
             "suction_mod_valve,hot_gas_valve,economizer_valve,ethylene , stateProcess,stateInyection, timerOfProcess,modelo,latitud , longitud ,ultima_fecha ,empresa_id,"
             "defrost_prueba,ripener_prueba) VALUES ('ZGTU0015','Madurador','Tunel USA',1000000,"
             "%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,0,0,0,0,0,0,0,0,0,0,0,%s,"
-            "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,'THERMOKING,0,0,%s,1,0,0)"
+            "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,'THERMOKING,0,0,10,1,0,0)"
         )
-        db_cursor.execute(consulta_tunel,(2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2, datetime.datetime(2024, 4, 16, 13, 51, 11)))
+        #db_cursor.execute(consulta_tunel,(2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2, datetime.datetime(2024, 4, 16, 13, 51, 11)))
+        db_cursor.execute(consulta_tunel,(2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2))
 
     else :
         #actualizar el 
