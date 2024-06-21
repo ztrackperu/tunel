@@ -15,10 +15,14 @@ db_cursor.execute("SELECT * FROM  contenedores WHERE nombre_contenedor='ZGTU0015
 
 
 #print all databases
-for db in db_cursor:
-	if db:
-	    print("con resultado")
-    else:
-	    print("no pasaa nada ")
+#for db in db_cursor:	
+	#if db:
+	    #print("con resultado")
+    #else:
+	    #print("no pasaa nada ")
+	#print("ok")
 	
-#crear registro sino existe , 
+#crear registro sino existe 
+ #
+
+print(db_cursor)
