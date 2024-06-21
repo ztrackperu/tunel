@@ -10,8 +10,8 @@ db_connection = mysql.connector.connect(
 # creating database_cursor to perform SQL operation
 db_cursor = db_connection.cursor()
 # executing cursor with execute method and pass SQL query
-#db_cursor.execute("SELECT * FROM  contenedores WHERE nombre_contenedor='ZGTU0015'")
-db_cursor.execute("SELECT * FROM  contenedores WHERE nombre_contenedor='ZGRU8747550'")
+db_cursor.execute("SELECT * FROM  contenedores WHERE nombre_contenedor='ZGTU0015'")
+#db_cursor.execute("SELECT * FROM  contenedores WHERE nombre_contenedor='ZGRU8747550'")
 
 #db_cursor.execute("SELECT * FROM  contenedores ")
 
@@ -32,9 +32,11 @@ update_old_salary = (
   "UPDATE salaries SET to_date = %s "
   "WHERE emp_no = %s AND from_date = %s")
 
-print(db_cursor[0])
+print(db_cursor)
 
 for db in db_cursor :
     print("aqui va :")
     print(db)
     print("termino de dato")
+
+print("trizteza")
