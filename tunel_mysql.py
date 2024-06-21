@@ -63,3 +63,4 @@ for db in db_cursor :
         #actualizar el 
         print("oliz")
 print("trizteza")
+
