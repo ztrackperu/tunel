@@ -32,7 +32,7 @@ update_old_salary = (
   "UPDATE salaries SET to_date = %s "
   "WHERE emp_no = %s AND from_date = %s")
 
-print(db_cursor)
+print(db_cursor[0])
 
 for db in db_cursor :
     print("aqui va :")
