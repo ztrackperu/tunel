@@ -10,7 +10,7 @@ db_connection = mysql.connector.connect(
 # creating database_cursor to perform SQL operation
 db_cursor = db_connection.cursor()
 # executing cursor with execute method and pass SQL query
-db_cursor.execute("SELECT * FROM  contenedores WHERE nombre_contenedor='ZGTU0015'")
+db_cursor.execute("SELECT count(*) FROM  contenedores WHERE nombre_contenedor='ZGTU0015'")
 #db_cursor.execute("SELECT * FROM  contenedores WHERE nombre_contenedor='ZGRU8747550'")
 
 #db_cursor.execute("SELECT * FROM  contenedores ")
