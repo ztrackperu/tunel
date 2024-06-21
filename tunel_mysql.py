@@ -28,3 +28,8 @@ db_cursor.execute("SELECT * FROM  contenedores ")
  #
 
 print(db_cursor)
+
+for db in db_cursor :
+    print("aqui va :")
+    print(db)
+    print("termino de dato")
